@@ -1,0 +1,319 @@
+/* McKinsey-style Navigation CSS */
+
+.header-mckinsey {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+}
+
+.header-mckinsey .container {
+    max-width: 1440px;
+    padding: 0 24px;
+}
+
+.header-mckinsey .header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.header-mckinsey .logo img {
+    height: 32px;
+}
+
+.mckinsey-nav {
+    display: flex;
+    align-items: center;
+}
+
+.mckinsey-nav .primary-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mckinsey-nav .nav-item {
+    position: relative;
+    margin: 0 8px;
+}
+
+.mckinsey-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.mckinsey-nav .nav-link i {
+    font-size: 12px;
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+}
+
+.mckinsey-nav .nav-item:hover .nav-link {
+    color: #0073b1;
+}
+
+.mckinsey-nav .nav-item:hover .nav-link i {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Menus */
+.mckinsey-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    min-width: 220px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+    border-radius: 4px;
+    padding: 16px 0;
+}
+
+.mckinsey-nav .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mckinsey-nav .dropdown-menu ul li a {
+    display: block;
+    padding: 8px 24px;
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mckinsey-nav .dropdown-menu ul li a:hover {
+    color: #0073b1;
+    background-color: #f8f9fa;
+}
+
+.mckinsey-nav .nav-item:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Mega Menu */
+.mckinsey-nav .mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+    padding: 32px 0;
+}
+
+.mckinsey-nav .mega-menu-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mckinsey-nav .mega-menu-column {
+    flex: 1;
+    min-width: 220px;
+    padding: 0 24px;
+}
+
+.mckinsey-nav .mega-menu-column h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.mckinsey-nav .mega-menu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mckinsey-nav .mega-menu-column ul li {
+    margin-bottom: 8px;
+}
+
+.mckinsey-nav .mega-menu-column ul li a {
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mckinsey-nav .mega-menu-column ul li a:hover {
+    color: #0073b1;
+}
+
+.mckinsey-nav .nav-item:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Mobile Menu */
+.mobile-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav .dropdown {
+    margin-bottom: 16px;
+}
+
+.mobile-nav .dropdown-toggle {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 0;
+    text-decoration: none;
+    position: relative;
+}
+
+.mobile-nav .dropdown-toggle:after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease;
+}
+
+.mobile-nav .dropdown.open .dropdown-toggle:after {
+    transform: rotate(180deg);
+}
+
+.mobile-nav .dropdown-menu {
+    display: none;
+    padding-left: 16px;
+    margin-top: 8px;
+}
+
+.mobile-nav .dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.mobile-nav .dropdown-menu li {
+    margin-bottom: 8px;
+}
+
+.mobile-nav .dropdown-menu li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0;
+}
+
+.mobile-nav .dropdown-menu li a:hover {
+    color: #fff;
+}
+
+/* Search Button */
+.menu-btns .search-trigger {
+    background: transparent;
+    border: none;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu-btns .search-trigger:hover {
+    color: #0073b1;
+}
+
+/* Menu Bars */
+.menu-btns .menubars {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 16px;
+    width: 24px;
+    padding: 0;
+}
+
+.menu-btns .menubars span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.menu-btns .menubars:hover span {
+    background-color: #0073b1;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .mckinsey-nav {
+        display: none;
+    }
+    
+    .header-mckinsey .header__main {
+        height: 64px;
+    }
+}
+
+/* Dark Mode */
+.dark-mode .header-mckinsey {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .mckinsey-nav .nav-link {
+    color: #fff;
+}
+
+.dark-mode .menu-btns .search-trigger,
+.dark-mode .menu-btns .menubars span {
+    background-color: #fff;
+}
+
+.dark-mode .mckinsey-nav .dropdown-menu,
+.dark-mode .mckinsey-nav .mega-menu {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .mckinsey-nav .mega-menu-column h4 {
+    color: #fff;
+    border-bottom-color: #333;
+}
+
+.dark-mode .mckinsey-nav .dropdown-menu ul li a,
+.dark-mode .mckinsey-nav .mega-menu-column ul li a {
+    color: #ccc;
+}
+
+.dark-mode .mckinsey-nav .dropdown-menu ul li a:hover,
+.dark-mode .mckinsey-nav .mega-menu-column ul li a:hover {
+    color: #fff;
+    background-color: #333;
+}
