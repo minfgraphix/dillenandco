@@ -41,10 +41,10 @@
 
                         <li>
                             <a href="#0" class="nav-link">Dillenandco Blog <i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="sub-menu">
-                                <li><a href="#0">Blog Grid</a></li>
-                                <li><a href="#0">Blog Details</a></li>
-                            </ul>
+{{--                            <ul class="sub-menu">--}}
+{{--                                <li><a href="#0">Blog Grid</a></li>--}}
+{{--                                <li><a href="#0">Blog Details</a></li>--}}
+{{--                            </ul>--}}
                         </li>
                     </ul>
                 </nav>
