@@ -19,18 +19,18 @@
                         long-term wealth preservation and growth.
                     </p>
 
-                   <h6> <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
+                   <h6> <a href="{{ route('insights') }}" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
                        onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                        onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
-                        Build experience capital <i class="fa-light fa-arrow-right"
+                        Trending insights <i class="fa-light fa-arrow-right"
                                      style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
 
                    </h6>
                     <h6 style="margin-top: -20px">
-                       <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
+                       <a href="{{ route('about') }}" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
                        onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                        onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
-                        Preorder The Broken Rung <i class="fa-light fa-arrow-right"
+                        Know more about us <i class="fa-light fa-arrow-right"
                                                     style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
                     </h6>
 
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="banner-two__image">
-                <img class="animation__arryLeftRight" src="assets/images/banner/artwork.png" alt="image">
+                <img class="animation__arryLeftRight" src="assets/images/banner/book.png" alt="image">
                 {{-- <div class="info1">
                     <img data-depth="0.03" src="assets/images/banner/banner-two-info1.png" alt="image">
                 </div> --}}
