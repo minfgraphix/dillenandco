@@ -15,11 +15,37 @@
             <div class="main-menu main-menu-light">
                 <nav>
                     <ul>
-                        <li><a href="{{route('home')}}" class="nav-link">Home</a></li>
-                        <li><a href="{{route('about')}}" class="nav-link">About</a></li>
-                        <li><a href="#0" class="nav-link">Services</a></li>
-                        <li><a href="#0" class="nav-link">Blog</a></li>
-                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li>
+                            <a href="{{route('home')}}" class="nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="{{route('insights')}}" class="nav-link">Featured Insights</a>
+{{--                            <ul class="sub-menu">--}}
+{{--                                <li><a href="#0">Our Leadership</a></li>--}}
+{{--                                <li><a href="#0">Purpose, Mission & Values</a></li>--}}
+{{--                                <li><a href="#0">How We Work</a></li>--}}
+{{--                            </ul>--}}
+                        </li>
+                        <li>
+                            <a href="{{route('about')}}" class="nav-link">About Us <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="{{route('who')}}">Who We Are</a></li>
+                                <li><a href="{{route('leadership')}}">Our Leadership</a></li>
+                                <li><a href="{{route('purpose')}}">Purpose, Mission & Values</a></li>
+                                <li><a href="{{route('how')}}">How We Work</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" class="nav-link">Location</a></li>
+
+
+                        <li>
+                            <a href="#0" class="nav-link">Dillenandco Blog <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="#0">Blog Grid</a></li>
+                                <li><a href="#0">Blog Details</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
                 <div class="menu-btns dark-area mr-20">
@@ -33,6 +59,129 @@
 </header>
 
 <style>
+/* Remove or update these conflicting rules */
+.header-area .main-menu nav ul li .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    z-index: 999;
+    display: block;
+    /* Dark theme styles */
+    background: #1a1a1a !important;  /* Using !important to override any conflicts */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-area .main-menu nav ul .sub-menu li a {
+    display: block;
+    padding: 8px 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-align: left;
+    /* Dark theme styles */
+    color: #ffffff !important;  /* Using !important to override any conflicts */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-area .main-menu nav ul .sub-menu li:last-child a {
+    border-bottom: none;
+}
+
+.header-area .main-menu nav ul .sub-menu li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #0066ff !important;
+    transform: translateX(5px);
+}
+
+/* Mobile submenu styles */
+@media (max-width: 992px) {
+    .header-area .main-menu nav ul .sub-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: #1a1a1a !important;
+        padding-left: 15px;
+        display: none;
+    }
+
+    .header-area .main-menu nav ul li.active > .sub-menu {
+        display: block;
+    }
+}
+
+.header-area .main-menu nav ul li {
+    position: relative;
+}
+
+.header-area .main-menu nav ul li .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    z-index: 999;
+    display: block;
+}
+
+.header-area .main-menu nav ul li:hover > .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.header-area .main-menu nav ul .sub-menu li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header-area .main-menu nav ul .sub-menu li a {
+    display: block;
+    padding: 8px 20px;
+    color: #000000;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.header-area .main-menu nav ul .sub-menu li a:hover {
+    background: rgba(0, 102, 255, 0.1);
+    color: #0066ff;
+    transform: translateX(5px);
+}
+
+/* Mobile submenu styles */
+@media (max-width: 992px) {
+    .header-area .main-menu nav ul .sub-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: rgba(0, 0, 0, 0.03);
+        padding-left: 15px;
+        display: none;
+    }
+
+    .header-area .main-menu nav ul li.active > .sub-menu {
+        display: block;
+    }
+}
     /* Header specific styles */
     .header-area.header-two-area {
         width: 100%;
@@ -203,4 +352,21 @@
             }
         }
     });
+
+    // Add submenu toggle functionality for mobile
+document.addEventListener('DOMContentLoaded', function() {
+    const menuItems = document.querySelectorAll('.main-menu nav ul li a');
+
+    menuItems.forEach(item => {
+        if (item.querySelector('.fa-angle-down')) {
+            item.addEventListener('click', function(e) {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    const parent = this.parentElement;
+                    parent.classList.toggle('active');
+                }
+            });
+        }
+    });
+});
 </script>

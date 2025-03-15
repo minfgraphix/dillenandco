@@ -4,9 +4,11 @@
 
         <section class="banner-five-area paralax__animation">
             <!-- Add dark overlay -->
-            <div class="banner-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%); z-index: 1;"></div>
+            <div class="banner-overlay"
+                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%); z-index: 1;"></div>
 
-            <video class="banner-five__video parallaxScaleScroll" autoplay="" muted="" loop="" style="transform: scale(1);">
+            <video class="banner-five__video parallaxScaleScroll" autoplay="" muted="" loop=""
+                   style="transform: scale(1);">
                 <source src="assets/images/video/banner-five-video.mp4" type="video/mp4">
             </video>
 
@@ -17,14 +19,16 @@
                 <div class="banner-five__content">
                     <br>
                     <h5 class="title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">About us</h5>
-                    <div class="info d-flex gap-3 align-items-center wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="info d-flex gap-3 align-items-center wow fadeInDown" data-wow-delay="400ms"
+                         data-wow-duration="1500ms">
                         <!-- Existing SVG and content -->
-                        <svg data-depth="0.01" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg data-depth="0.01" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
                             <!-- ... existing SVG paths ... -->
                         </svg>
                         <div>
-{{--                            <span class="text-white">Got Questions?</span>--}}
-{{--                            <h4><a class="text-white" href="tel:00022220000">000 2222 0000</a></h4>--}}
+                            {{--                            <span class="text-white">Got Questions?</span>--}}
+                            {{--                            <h4><a class="text-white" href="tel:00022220000">000 2222 0000</a></h4>--}}
                             <h2><a class="text-white">We accelerate sustainable and inclusive growth</a></h2>
                         </div>
                     </div>
@@ -161,7 +165,8 @@
                                             class="char" data-char="n" style="--char-index: 10;">n</span></span><span
                                         class="whitespace"> </span><span
                                         class="word" data-word="&amp;" style="--word-index: 2;"><span
-                                            class="char" data-char="&" style="--char-index: 11;">&amp;</span></span><span
+                                            class="char" data-char="&"
+                                            style="--char-index: 11;">&amp;</span></span><span
                                         class="whitespace"> </span><span
                                         class="word" data-word="Company" style="--word-index: 3;"><span
                                             class="char" data-char="C" style="--char-index: 12;">C</span><span
@@ -179,22 +184,24 @@
                                     high-performing jurisdictions in the UK and the US.
                                     We specialize in structuring fixed-income investment opportunities that
                                     deliver stable returns.
-                                    <br>
+                                    <br><br>
                                     Our firm partners with multi-billion-dollar companies, including publicly
                                     traded entities on the NYSE, to provide our clients with access to
                                     world-class investment opportunities.
+
+                                    With a deep understanding of global markets and a commitment to integrity, we bridge
+                                    the gap between African institutional capital and secure, growth-oriented investment
+                                    landscapes abroad.
+                                    <br><br>
+                                    At Dillen & Company, we believe in disciplined wealth management, strategic global
+                                    expansion, and long-term value creation. Our mission is to empower African investors
+                                    with the tools, insights, and opportunities needed to build resilient, globally
+                                    diversified portfolios.
 
                                 </p>
 
 
                             </div>
-
-                            <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
-                               onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
-                               onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
-                                Read More <i class="fa-light fa-arrow-right"
-                                             style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
-
 
 
                         </div>
@@ -207,7 +214,7 @@
                     <div class="choose-seven__wrp">
                         <div class="wrp">
                             <div class="section-header">
-{{--                                <h6>Who We Are</h6>--}}
+                                {{--                                <h6>Who We Are</h6>--}}
                                 <h2 class="wow splt-txt words chars splitting animated" data-splitting=""
                                     style="--word-total: 4; --char-total: 20; visibility: visible;"><span
                                         class="word" data-word="Who" style="--word-index: 0;"><span class="char"
@@ -229,21 +236,27 @@
                                             class="char" data-char="e" style="--char-index: 7;">e</span></span>
                                 </h2>
                                 <p>
-                                    Dillen & Company is a trusted investment advisory firm dedicated to helping African institutional investors build globally diversified portfolios in secure, high-growth markets.
-                                    We specialize in structuring fixed-income investment opportunities in the UK and the US.
+                                    Dillen & Company is a trusted investment advisory firm dedicated to helping African
+                                    institutional investors build globally diversified portfolios in secure, high-growth
+                                    markets.
+                                    We specialize in structuring fixed-income investment opportunities in the UK and the
+                                    US.
                                 </p>
                                 <p>
-                                    With deep expertise in global finance, we partner with multi-billion-dollar institutions, including publicly listed companies on the NYSE, to provide African investors with access to world-class opportunities.
-                                    Our approach is rooted in integrity, discipline, and a commitment to long-term value creation.
+                                    With deep expertise in global finance, we partner with multi-billion-dollar
+                                    institutions, including publicly listed companies on the NYSE, to provide African
+                                    investors with access to world-class opportunities.
+                                    Our approach is rooted in integrity, discipline, and a commitment to long-term value
+                                    creation.
                                 </p>
-                                <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
+                                <a href="page-about.html" class="mt-30"
+                                   style="color: black; font-size: large; transition: color 0.3s ease;"
                                    onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                                    onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
                                     Read More <i class="fa-light fa-arrow-right"
                                                  style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
 
                             </div>
-
 
 
                         </div>
@@ -306,18 +319,22 @@
                                     class="char" data-char="s" style="--char-index: 10;">s</span></span><span
                                 class="char" data-char="?" style="--char-index: 11;">?</span>
                         </h2>
-                        <div class="faq__accordion wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
+                        <div class="faq__accordion wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms"
+                             style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
                                             &nbsp Secure Investments:
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                         data-bs-parent="#accordionExample" style="">
                                         <div class="accordion-body">
                                             <p class="ml-3">
-                                                  We focus on stable, well-regulated markets to ensure asset protection.
+                                                We focus on stable, well-regulated markets to ensure asset protection.
                                             </p>
                                         </div>
                                     </div>
@@ -325,14 +342,18 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            &nbsp  Global Partnerships:
+                                        <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            &nbsp Global Partnerships:
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                         data-bs-parent="#accordionExample" style="">
                                         <div class="accordion-body">
                                             <p class="ml-3">
-                                                We work with top-tier financial institutions to deliver best-in-class solutions.
+                                                We work with top-tier financial institutions to deliver best-in-class
+                                                solutions.
                                             </p>
                                         </div>
                                     </div>
@@ -340,24 +361,30 @@
 
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
                                             &nbsp Bespoke Advisory:
                                         </button>
                                     </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>
-                                                Our client-centric approach ensures tailored investment strategies that align with institutional goals.
+                                                Our client-centric approach ensures tailored investment strategies that
+                                                align with institutional goals.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <p class="wow fadeInUp mt-20" data-wow-delay="00ms" data-wow-duration="1500ms">Being a
-                                    Let Dillen & Company be your trusted partner in navigating the global financial landscape.
+                                    Let Dillen & Company be your trusted partner in navigating the global financial
+                                    landscape.
                                 </p>
                             </div>
                             <h5>
-                                <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
+                                <a href="page-about.html" class="mt-30"
+                                   style="color: black; font-size: large; transition: color 0.3s ease;"
                                    onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                                    onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
                                     Read More <i class="fa-light fa-arrow-right"
@@ -367,7 +394,6 @@
                             </h5>
                         </div>
                     </div>
-
 
 
                 </div>
@@ -385,8 +411,10 @@
                         </h2>
                     </div>
                     <p class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        At Dillen & Company, we take a structured, research-driven approach to helping African institutional investors access secure,
-                        high-yield opportunities in global markets. Our process is built on rigorous due diligence, strategic partnerships,
+                        At Dillen & Company, we take a structured, research-driven approach to helping African
+                        institutional investors access secure,
+                        high-yield opportunities in global markets. Our process is built on rigorous due diligence,
+                        strategic partnerships,
                         and a commitment to delivering long-term value.
                     </p>
                 </div>
@@ -398,10 +426,12 @@
                             <a href="page-project-details.html" class="project__item">
                                 <div class="content">
                                     <span>01</span>
-                                    <h4>Understanding Your  <br> Investment Objectives</h4>
+                                    <h4>Understanding Your <br> Investment Objectives</h4>
                                     <p class="text">
-                                        We begin by engaging with institutional investors to gain a deep understanding of their financial goals, risk appetite, and investment horizon.
-                                        This ensures that every opportunity we present aligns with their strategic needs.
+                                        We begin by engaging with institutional investors to gain a deep understanding
+                                        of their financial goals, risk appetite, and investment horizon.
+                                        This ensures that every opportunity we present aligns with their strategic
+                                        needs.
                                     </p>
 
                                 </div>
@@ -413,8 +443,10 @@
                                     <span>02</span>
                                     <h4>Identifying Secure,<br> High-Performing Investments</h4>
                                     <p>
-                                        Leveraging our expertise and global network, we identify investment opportunities in well-regulated markets such as the UK and the US.
-                                        We focus on structured fixed-income investments that offer stable and predictable returns.
+                                        Leveraging our expertise and global network, we identify investment
+                                        opportunities in well-regulated markets such as the UK and the US.
+                                        We focus on structured fixed-income investments that offer stable and
+                                        predictable returns.
                                     </p>
                                 </div>
                             </a>
@@ -423,10 +455,12 @@
                             <a href="page-project-details.html" class="project__item">
                                 <div class="content">
                                     <span>03</span>
-                                    <h4>Partnering with  <br> Industry Leaders</h4>
+                                    <h4>Partnering with <br> Industry Leaders</h4>
                                     <p>
-                                        We collaborate with multi-billion-dollar institutions, including publicly listed companies on the NYSE,
-                                        to provide our clients with access to institutional-grade investment opportunities backed by strong financial fundamentals.
+                                        We collaborate with multi-billion-dollar institutions, including publicly listed
+                                        companies on the NYSE,
+                                        to provide our clients with access to institutional-grade investment
+                                        opportunities backed by strong financial fundamentals.
                                     </p>
                                 </div>
                             </a>
@@ -435,9 +469,10 @@
                             <a href="page-project-details.html" class="project__item">
                                 <div class="content">
                                     <span>04</span>
-                                    <h4>Conducting Rigorous  <br> Due Diligence</h4>
+                                    <h4>Conducting Rigorous <br> Due Diligence</h4>
                                     <p>
-                                        Every investment undergoes a thorough risk assessment, legal review, and financial analysis to ensure capital preservation and growth.
+                                        Every investment undergoes a thorough risk assessment, legal review, and
+                                        financial analysis to ensure capital preservation and growth.
                                         We prioritize security and transparency in all our transactions.
                                     </p>
                                 </div>
@@ -447,10 +482,11 @@
                             <a href="page-project-details.html" class="project__item">
                                 <div class="content">
                                     <span>05</span>
-                                    <h4> Seamless Execution  <br> & Compliance</h4>
+                                    <h4> Seamless Execution <br> & Compliance</h4>
                                     <p>
                                         Once an investment is selected, we facilitate the entire execution process,
-                                        ensuring compliance with international regulatory standards and seamless transaction processing.
+                                        ensuring compliance with international regulatory standards and seamless
+                                        transaction processing.
                                     </p>
                                 </div>
                             </a>
@@ -459,10 +495,12 @@
                             <a href="page-project-details.html" class="project__item">
                                 <div class="content">
                                     <span>06</span>
-                                    <h4>Continuous Monitoring  <br> & Reporting</h4>
+                                    <h4>Continuous Monitoring <br> & Reporting</h4>
                                     <p>
-                                        We provide ongoing portfolio monitoring and regular performance updates, ensuring that our clients remain informed and in control of their investments.
-                                        Our team proactively manages risks and identifies opportunities for portfolio optimization.
+                                        We provide ongoing portfolio monitoring and regular performance updates,
+                                        ensuring that our clients remain informed and in control of their investments.
+                                        Our team proactively manages risks and identifies opportunities for portfolio
+                                        optimization.
                                     </p>
                                 </div>
                             </a>
@@ -544,14 +582,14 @@
                             <div class="section-header">
                                 <h2>Are you seeking an exciting role that will challenge and inspire you?</h2>
 
-                                <a href="page-about.html" class="mt-30" style="color: black; font-size: large; transition: color 0.3s ease;"
+                                <a href="page-about.html" class="mt-30"
+                                   style="color: black; font-size: large; transition: color 0.3s ease;"
                                    onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                                    onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
                                     Read More <i class="fa-light fa-arrow-right"
                                                  style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
 
                             </div>
-
 
 
                         </div>
@@ -578,7 +616,8 @@
                             </h2>
 
                             <p class="wow color-light fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <a href="page-about.html" class="hover-link-light"><u>Get in touch</u></a>  with us or find an office closest to you.
+                                <a href="page-about.html" class="hover-link-light"><u>Get in touch</u></a> with us or
+                                find an office closest to you.
                             </p>
                         </div>
                     </div>
@@ -587,14 +626,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
 
 
     </main>

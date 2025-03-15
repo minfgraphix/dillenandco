@@ -10,6 +10,11 @@ Route::get('/', function () {
     return view('home1');
 })->name('home');
 Route::view('about', 'about')->name('about');
+Route::view('who', 'who')->name('who');
+Route::view('how', 'how')->name('how');
+Route::view('leadership', 'leadership')->name('leadership');
+Route::view('insights', 'insights')->name('insights');
+Route::view('purpose', 'purpose')->name('purpose');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

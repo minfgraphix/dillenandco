@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dillen & Company</title>
     <!-- Favicon img -->
-    {{-- <link rel="shortcut icon" href="assets/images/favicon.png"> --}}
+    <link rel="shortcut icon" href="assets/images/dc.png">
     <!-- Bootstarp min css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Mean menu css -->
@@ -149,27 +149,28 @@
 <!-- Sidebar area start here -->
 <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
     <div class="offcanvas-header">
-        <a href="index.html" class="logo"> <img src="assets/images/logo/logo-light.png" alt="logo"></a>
+        <a href="index.html" class="logo"> <img src="assets/images/logo/logo-white.png" alt="logo"></a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
                 class="fa-regular fa-xmark"></i></button>
     </div>
     <div class="offcanvas-body sidebar__body">
         <div class="mobile-menu overflow-hidden"></div>
         <div class="d-none d-lg-block">
-            <h5 class="text-white mb-20">About Us</h5>
+            {{-- <h5 class="text-white mb-20">About Us</h5>
             <p class="sidebar__text">Unleash the full potential of your website and elevate its online presence
-                with our comprehensive consultation solutions.</p>
+                with our comprehensive consultation solutions.</p> --}}
         </div>
         <div class="sidebar__contact-info mt-30">
             <h5 class="text-white mb-20">Contact Info</h5>
             <ul>
-                <li><i class="fa-solid fa-location-dot"></i> <a href="#0">121 King Street, Melbourne</a></li>
-                <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+912659302003">+91
-                        2659302 003</a></li>
-                <li><i class="fa-solid fa-paper-plane"></i> <a
-                        href="/cdn-cgi/l/email-protection#f69f989099d895999b8697988fb6919b979f9ad895999b"><span
-                            class="__cf_email__"
-                            data-cfemail="751c1b131a5b161a1805141b0c351218141c195b161a18">[email&#160;protected]</span></a>
+                <li><i class="fa-solid fa-location-dot"></i> <a href="#0">
+                    Airport City, Accra</a></li>
+                <li class="py-2"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+233240827857">
+                    +233240827857</a></li>
+                <li><i class="fa-solid fa-paper-plane "></i> <a
+                        href="mailto:accra@dillenandco.com"><span
+                            class="__cf_email__ text-white"
+                            data-cfemail="751c1b131a5b161a1805141b0c351218141c195b161a18">accra@dillenandco.com</span></a>
                 </li>
             </ul>
         </div>
@@ -309,7 +310,7 @@
                                     <h5 class="title">Contact Us</h5>
                                     <ul>
                                         <li><a href="#0">accra@dillenandco.com</a></li>
-                                        <li><a href="#0">+1 234 5644 5698</a></li>
+                                        <li><a href="#0">+233 24 082 7857</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -319,7 +320,8 @@
 
                                     <h5 class="title">Our Address</h5>
                                     <ul>
-                                        <li><a href="#0">Old Wesbury 356, New York <br> 11230, United Stats</a>
+                                        <li><a href="#0">5th Floor, Atlantic Tower
+                                             <br> Airport City, Accra</a>
                                         </li>
                                     </ul>
                                 </div>

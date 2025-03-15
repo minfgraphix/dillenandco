@@ -56,11 +56,11 @@
         <section id="feature" class="feature-area pb-0">
             <div class="feature__wrp">
                 <div class="row g-0" style="margin-top: -30px; margin-bottom: -30px;">
-                    <div class="col-sm-6 col-lg-2">
+                    <div class="col-sm-6 col-lg-3">
                         <div class="feature__item">
                             <div class="feature__content">
                                 <h6><a class="hover-link" style="font-family: MckinseySans-regular"
-                                       href="page-service-details.html">TRENDING <br> INSIGHTS</a>
+                                       href="{{ route('insights') }}">TRENDING <br> INSIGHTS</a>
                                 </h6>
                             </div>
                         </div>
@@ -71,36 +71,18 @@
                             <div class="feature__content">
                                 <div style="display: flex; align-items: center;">
 
-                                    <p style="margin-left: -20px; ">
+                                    <p style="margin-left: -15px; ">
                                     <h3
                                         style="text-align: right; vertical-align: top; margin-left: -10px; blue; font-family: MckinseySans-regular">
                                         1</h3>
-                                    <hr
-                                        style="border: 1.5px solid blue; transform: rotate(90deg); width: 100px; margin-left: -10px;">
+                                        <hr style="border: 1.5px solid blue; transform: rotate(90deg); width: 80px; margin-left: -10px;"></hr>
+                                    
                                     <a style="font-family: MckinseySans-regular !important; margin-left: -1px;"
                                        class="hover-link"
-                                       href="page-service-details.html">M&A Annual Report: Is the wave finally
-                                        arriving?</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="feature__item">
-                            <div class="feature__content">
-                                <div style="display: flex; align-items: center;">
-
-                                    <p style="margin-left: -20px; ">
-                                    <h3
-                                        style="text-align: right; vertical-align: top; margin-left: -10px; blue; font-family: MckinseySans-regular">
-                                        2</h3>
-                                    <hr
-                                        style="border: 1.5px solid blue; transform: rotate(90deg); width: 100px; margin-left: -10px;">
-                                    <a style="font-family: MckinseySans-regular !important; margin-left: -1px;"
-                                       class="hover-link"
-                                       href="page-service-details.html">
-                                        Superagency in the workplace: Empowering people to unlock AI's full
-                                        potential</a></p>
+                                       href="{{ route('insights') }}">
+                                       Market Trends & Analysis
+                                       <br><br>
+                                    </a></p>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +92,27 @@
                             <div class="feature__content">
                                 <div style="display: flex; align-items: center;">
 
-                                    <p style="margin-left: -20px; ">
+                                    <p style="margin-left: -16px; ">
+                                    <h3
+                                        style="text-align: right; vertical-align: top; margin-left: -10px; blue; font-family: MckinseySans-regular">
+                                        2</h3>
+                                    <hr
+                                        style="border: 1.5px solid blue; transform: rotate(90deg); width: 100px; margin-left: -10px;">
+                                    <a style="font-family: MckinseySans-regular !important; margin-left: -1px;"
+                                       class="hover-link"
+                                       href="{{ route('insights') }}">
+                                       Investment Strategies & Opportunities
+                                    </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="feature__item">
+                            <div class="feature__content">
+                                <div style="display: flex; align-items: center;">
+
+                                    <p style="margin-left: -16px; ">
                                     <h3
                                         style="text-align: right; vertical-align: top; margin-left: -10px; blue; font-family: MckinseySans-regular">
                                         3</h3>
@@ -118,8 +120,9 @@
                                         style="border: 1.5px solid blue; transform: rotate(90deg); width: 100px; margin-left: -10px;">
                                     <a style="font-family: MckinseySans-regular !important; margin-left: -1px;"
                                        class="hover-link"
-                                       href="page-service-details.html">
-                                        Building leaders from the ground up</a></p>
+                                       href="{{ route('insights') }}">
+                                       Risk Management & Due Diligence
+                                    </a></p>
                                 </div>
                             </div>
                         </div>
@@ -374,8 +377,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="wow fadeInUp mt-20" data-wow-delay="00ms" data-wow-duration="1500ms">Being a
-                                    Let Dillen & Company be your trusted partner in navigating the global financial landscape.
+                                <p class="wow fadeInUp mt-20" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    Dillen & Company be your trusted partner in navigating the global financial landscape.
                                 </p>
                             </div>
                             <h5>
