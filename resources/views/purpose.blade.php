@@ -60,7 +60,7 @@
                                         African institutional investors access secure, high-yield opportunities in global
                                         markets. Our process is built on rigorous due diligence, strategic partnerships, and
                                         a commitment to delivering long-term value.
-                                        <br>
+                                        
 
                                     </p>
                                 </div>
