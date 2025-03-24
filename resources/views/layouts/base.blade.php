@@ -90,54 +90,54 @@
             justify-content: center;
             width: 100%;
         }
-    
+
         .main-menu nav ul {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 2rem;
         }
-    
+
         .header__main {
             display: flex;
             justify-content: space-between;
             align-items: left;
             width: 100%;
         }
-    
+
         .logo {
             flex: 0 0 auto;
         }
-    
+
         .main-menu {
             flex: 1;
             display: flex;
             justify-content: center;
         }
-    
+
         .menu-btns {
             flex: 0 0 auto;
         }
-    
+
         /* Banner title specific styles */
         .banner-two-area .title {
             color: black !important;
             font-size: 66px !important;
         }
-    
+
         /* Responsive styles for banner title only */
         @media (max-width: 992px) {
             .banner-two-area .title {
                 font-size: 48px !important;
             }
         }
-    
+
         @media (max-width: 768px) {
             .banner-two-area .title {
                 font-size: 36px !important;
             }
         }
-    
+
         @media (max-width: 480px) {
             .banner-two-area .title {
                 font-size: 28px !important;
@@ -293,8 +293,9 @@
                         </a>
                         <p class="mt-20 text">Subscribe and stay current with our latest insights</p>
                         <div class="input dark-area">
-                            <input type="text" placeholder="Enter your e-amil">
-                            <button>Send<i class="fa-thin fa-arrow-up-right"></i></button>
+{{--                            <input type="text" placeholder="Enter your e-amil">--}}
+                           <button class="align-content-lg-start"> <a href="{{route('contactus')}}">Get in Touch<i class="fa-thin align-content-start fa-arrow-up-right"></i></a>
+                           </button>
                         </div>
                     </div>
                 </div>

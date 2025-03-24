@@ -28,7 +28,7 @@
 {{--                            </ul>--}}
                         </li>
                         <li>
-                            <a href="{{route('about')}}" class="nav-link">About Us <i class="fa-solid fa-angle-down"></i></a>
+                            <a href="" class="nav-link">About Us <i class="fa-solid fa-angle-down"></i></a>
                             <ul class="sub-menu">
                                 <li><a href="{{route('who')}}">Who We Are</a></li>
                                 <li><a href="{{route('leadership')}}">Our Leadership</a></li>

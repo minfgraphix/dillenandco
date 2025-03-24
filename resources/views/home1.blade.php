@@ -76,7 +76,7 @@
                                         style="text-align: right; vertical-align: top; margin-left: -10px; blue; font-family: MckinseySans-regular">
                                         1</h3>
                                         <hr style="border: 1.5px solid blue; transform: rotate(90deg); width: 80px; margin-left: -10px;"></hr>
-                                    
+
                                     <a style="font-family: MckinseySans-regular !important; margin-left: -1px;"
                                        class="hover-link"
                                        href="{{ route('insights') }}">
@@ -401,20 +401,20 @@
         </section>
 
         <!-- Project area start here -->
-        <section class="project-area pt-130">
+        <section class="project-area pt-0">
             <div class="container">
-                <div class="section-header__flex mb-50">
-                    <div>
-                        {{--                    <h6></h6>--}}
-                        <h2 class="wow splt-txt" data-splitting="">HOW WE WORK
-                        </h2>
-                    </div>
-                    <p class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        At Dillen & Company, we take a structured, research-driven approach to helping African institutional investors access secure,
-                        high-yield opportunities in global markets. Our process is built on rigorous due diligence, strategic partnerships,
-                        and a commitment to delivering long-term value.
-                    </p>
-                </div>
+{{--                <div class="section-header__flex mb-50">--}}
+{{--                    <div>--}}
+{{--                        --}}{{--                    <h6></h6>--}}
+{{--                        <h2 class="wow splt-txt" data-splitting="">HOW WE WORK--}}
+{{--                        </h2>--}}
+{{--                    </div>--}}
+{{--                    <p class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">--}}
+{{--                        At Dillen & Company, we take a structured, research-driven approach to helping African institutional investors access secure,--}}
+{{--                        high-yield opportunities in global markets. Our process is built on rigorous due diligence, strategic partnerships,--}}
+{{--                        and a commitment to delivering long-term value.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
             </div>
             <div class="project__wrp">
                 <div class="swiper project__slider">
