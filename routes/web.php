@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -16,6 +18,11 @@ Route::view('leadership', 'leadership')->name('leadership');
 
 Route::view('insights', 'insights')->name('insights');
 Route::view('purpose', 'purpose')->name('purpose');
+
+Route::view('contactUs', 'contactus')->name('contactus');
+
+Route::post('contactsend', [ContactController::class, 'sendcontactmessage'])->name('contact.send');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

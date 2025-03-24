@@ -36,7 +36,7 @@
                                 <li><a href="{{route('how')}}">How We Work</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html" class="nav-link">Location</a></li>
+                        <li><a href="{{route('contactus')}}" class="nav-link">Location</a></li>
 
 
                         <li>

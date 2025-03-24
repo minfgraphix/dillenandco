@@ -361,7 +361,7 @@
 <!-- Back to top area end here -->
 
 <!-- Jquery 3.7.0 Min Js -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+{{-- <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> --}}
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- Bootstrap min Js -->
 <script src="assets/js/bootstrap.min.js"></script>
