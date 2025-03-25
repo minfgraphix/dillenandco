@@ -94,7 +94,7 @@
                 <div class="swiper project__slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" data-tab="tab-1">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>01</span>
                                     <h4>Understanding Your <br> Investment Objectives</h4>
@@ -109,7 +109,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-2">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>02</span>
                                     <h4>Identifying Secure,<br> High-Performing Investments</h4>
@@ -123,7 +123,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-3">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>03</span>
                                     <h4>Partnering with <br> Industry Leaders</h4>
@@ -137,7 +137,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-4">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>04</span>
                                     <h4>Conducting Rigorous <br> Due Diligence</h4>
@@ -150,7 +150,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-5">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>05</span>
                                     <h4> Seamless Execution <br> & Compliance</h4>
@@ -163,7 +163,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-6">
-                            <a href="page-project-details.html" class="project__item">
+                            <a href="" class="project__item">
                                 <div class="content">
                                     <span>06</span>
                                     <h4>Continuous Monitoring <br> & Reporting</h4>
@@ -177,7 +177,7 @@
                             </a>
                         </div>
                         {{--                    <div class="swiper-slide" data-tab="tab-7">--}}
-                        {{--                        <a href="page-project-details.html" class="project__item">--}}
+                        {{--                        <a href="" class="project__item">--}}
                         {{--                            <div class="content">--}}
                         {{--                                <span>07</span>--}}
                         {{--                                <h4>Start the in-depth <br> design process</h4>--}}
@@ -186,7 +186,7 @@
                         {{--                        </a>--}}
                         {{--                    </div>--}}
                         {{--                    <div class="swiper-slide" data-tab="tab-8">--}}
-                        {{--                        <a href="page-project-details.html" class="project__item">--}}
+                        {{--                        <a href="" class="project__item">--}}
                         {{--                            <div class="content">--}}
                         {{--                                <span>08</span>--}}
                         {{--                                <h4>Assembly Home</h4>--}}
