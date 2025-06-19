@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="banner-two__image">
-                <img class="animation__arryLeftRight" src="assets/images/banner/book.png" alt="image">
+                <img class="animation__arryLeftRight" src="assets/images/banner/multinationals.webp" alt="image">
                 {{-- <div class="info1">
                     <img data-depth="0.03" src="assets/images/banner/banner-two-info1.png" alt="image">
                 </div> --}}
