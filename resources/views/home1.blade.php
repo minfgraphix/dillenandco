@@ -31,9 +31,8 @@
                        onmouseover="this.style.color='blue'; this.querySelector('i').style.transform='translateX(15px)'"
                        onmouseout="this.style.color='black'; this.querySelector('i').style.transform='translateX(0)'">
                         Know more about us <i class="fa-light fa-arrow-right"
-                                                    style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
+                        style="transition: transform 0.3s ease; color: blue; font-weight: bold; display: inline-block;"></i></a>
                     </h6>
-
                     </div>
 
                 </div>
