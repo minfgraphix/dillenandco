@@ -7,8 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dillen & Company empowers African institutional investors by providing access to secure, high‑yield investment opportunities in well‑regulated global markets, bridging African capital with global ecosystems for long‑term wealth growth.">
     <meta name="keywords" content="African institutional investors, high‑yield investments, global markets, secure investments, wealth preservation, investment opportunities, Dillen & Company, Africa finance, institutional investing, bridge African capital">
+    <meta property="og:title" content="Dillen & Company">
+    <meta property="og:description" content="Empowering African institutional investors with secure, high-yield access to global markets.">
+    <meta property="og:image" content="https://dillenandco.com/assets/images/logo/logo-light.png"> <!-- Replace with actual image -->
+    <meta property="og:url" content="https://dillenandco.com">
+    <meta property="og:type" content="website">
 
-    <title>Dillen & Company</title>
+
+    <title>Dillen & Company – Secure Global Investment Access for Africa</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="assets/images/dc.png">
     <!-- Bootstarp min css -->

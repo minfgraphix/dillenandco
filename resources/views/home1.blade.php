@@ -6,12 +6,12 @@
         <section class="banner-two-area paralax__animation"
                  data-background="{{ asset('assets/images/Background.jpg') }}" style="height: 680px;">
             <div class="banner-two__wrp">
-                <div class="banner-two__content mt-1 mb-20">
+                <div class="mt-1 mb-20 banner-two__content">
                     <br><br>
-                    <h1 class="title mt-30 wow splt-txt-bounce " data-splitting=""
+                    <h1 class="title mt-30 wow splt-txt-bounce" data-splitting=""
                         style="color:black !important; font-size: 66px; ">
                         Dillen & Company</h1>
-                    <p class=" wow fadeInUp mb-20" data-wow-delay="200ms" data-wow-duration="1500ms"
+                    <p class="mb-20 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"
                        style="color:black !important">
                         We empower African institutional investors by providing access to secure, high-yield investment
                         opportunities in global markets.
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="banner-two__image">
-                <img class="animation__arryLeftRight" src="assets/images/banner/multinationals.webp" alt="image">
+                {{-- <img class="animation__arryLeftRight" src="assets/images/banner/multinationals.webp" alt="image"> --}}
                 {{-- <div class="info1">
                     <img data-depth="0.03" src="assets/images/banner/banner-two-info1.png" alt="image">
                 </div> --}}
@@ -52,7 +52,7 @@
         </section>
         <!-- Banner area end here -->
 
-        <section id="feature" class="feature-area pb-0">
+        <section id="feature" class="pb-0 feature-area">
             <div class="feature__wrp">
                 <div class="row g-0" style="margin-top: -30px; margin-bottom: -30px;">
                     <div class="col-sm-6 col-lg-3">
@@ -227,7 +227,7 @@
             </div>
 
             <div class="row g-0">
-                <div class="col-lg-6 order-2 order-lg-1">
+                <div class="order-2 col-lg-6 order-lg-1">
                     <div class="choose-seven__wrp">
                         <div class="wrp">
                             <div class="section-header">
@@ -273,7 +273,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2">
+                <div class="order-1 col-lg-6 order-lg-2">
                     <div class="choose-seven__image">
                         <img src="gettyimages.jpg" alt="image">
                     </div>
@@ -376,7 +376,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="wow fadeInUp mt-20" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <p class="mt-20 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Dillen & Company be your trusted partner in navigating the global financial landscape.
                                 </p>
                             </div>
@@ -400,7 +400,7 @@
         </section>
 
         <!-- Project area start here -->
-        <section class="project-area pt-0">
+        <section class="pt-0 project-area">
             <div class="container">
 {{--                <div class="section-header__flex mb-50">--}}
 {{--                    <div>--}}
@@ -562,7 +562,7 @@
         {{-- <section class="choose-seven-area" style="heigth:700px">
 
             <div class="row g-0">
-                <div class="col-lg-6 order-2 order-lg-1">
+                <div class="order-2 col-lg-6 order-lg-1">
                     <div class="choose-seven__wrp">
                         <div class="wrp">
                             <div class="section-header">
@@ -581,7 +581,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2">
+                <div class="order-1 col-lg-6 order-lg-2">
                     <div class="choose-seven__image">
                         <img src="careers_thumb.jpg" alt="image">
                     </div>
